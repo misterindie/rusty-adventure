@@ -1,0 +1,33 @@
+
+      //NPC ACTIONS
+      /*Action::NpcAct(ref npc_action) => match npc_action {
+          //Heal the NPC
+          NpcAction::Heal(ref amount, ref id) => {
+              new_state.npcs.get_mut_list()[new_state.npcs.get_index_of_npc(id)].hp += amount;
+          }
+          //Hurt the NPC
+          NpcAction::Hurt(ref amount, ref id) => {
+              new_state.npcs.get_mut_list()[new_state.npcs.get_index_of_npc(id)].hp -= amount;
+          },
+          //Kill/Remove the NPC
+          NpcAction::Kill(ref id) => {
+                  new_state.npcs.delete(new_state.npcs.get_mut_list()[new_state.npcs.get_index_of_npc(id)].id);
+          },
+          //Update an NPC's Invnetory
+          NpcAction::UpdateInventory(ref inventory_actions, ref id) => match inventory_actions {
+              //Add and Item to the NPC's Inventory
+              InventoryAction::Add(ref item) => {
+                  new_state.npcs.get_list()[new_state.npcs.get_index_of_npc(id)].
+                  inventory.add(item, None);
+              },
+              //Remove an Item from the NPC's Inventory
+              InventoryAction::Delete(ref item) => {
+                  new_state.npcs.get_list()[new_state.npcs.get_index_of_npc(id)].
+                  inventory.delete(item);
+              },
+              InventoryAction::Display() => {
+                  new_state.npcs.get_list
+              }
+          }
+      },
+      */
